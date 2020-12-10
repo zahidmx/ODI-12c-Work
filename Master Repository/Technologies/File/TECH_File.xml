@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="GFy4bg0sQgFst4f0c5aFYA==" exportKeySalt="41c905ff-d4a8-4483-918d-f6d6a9e821c1" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="ycSjkWLW0ZlconYu1e2n4Q==" exportKeySalt="7a9ab6fd-cd1a-4266-a663-9bfd161c16ee" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTechno">
 		<Field name="CatalogTerm" type="java.lang.String">null</Field>
 	<Field name="ColAliasWord" type="java.lang.String">null</Field>
@@ -73,7 +73,7 @@
 	<Field name="JoinOuterLoc" type="java.lang.String">null</Field>
 	<Field name="JoinOuterSide" type="java.lang.String">null</Field>
 	<Field name="JoinRightOut" type="java.lang.String">null</Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-09 17:58:38.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-10 14:57:08.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
 	<Field name="LocObjPattern" type="java.lang.String"><![CDATA[%SCHEMA/%OBJECT]]></Field>
 	<Field name="LocSeqCurrPattern" type="java.lang.String">null</Field>

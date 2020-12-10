@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="N91nMFuNwehI6cbxGxzPQA==" exportKeySalt="2b08e0c2-355a-48e3-bfd1-544a9837789d" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpModFolder">
+		<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2020-12-10 13:57:14.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[5a8bd9f2-262a-4819-a747-a153b0515ad3]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IModFolder" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
+	<Field name="ITxtDescription" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-10 13:57:26.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="ModFolderName" type="java.lang.String"><![CDATA[RnD]]></Field>
+	<Field name="ParIModFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpModel]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[MDL_FILE_SRC]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e483a06f-b30a-47ed-9331-970c7b9b8c64]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[7aeea5c889a7e71c9348727f2ed8f4ec1a97d8c1]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[MDL_FILE_SRC/MOD_MDL_FILE_SRC.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpModel]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[MDL_ORCL_SRC]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c0f8dd52-8be9-4b95-bd78-5ecb21ad60f9]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[f379860a9ee1ee3320f01199968a877c38969055]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[MDL_ORCL_SRC/MOD_MDL_ORCL_SRC.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpModel]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[MDL_XML_SRC]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[f98e844c-2c1d-42e5-8361-8aae6bc53f35]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[5bf6fd2826387eb0ea406d64ca94f2e64d9e5eda]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[MDL_XML_SRC/MOD_MDL_XML_SRC.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.09]]></Field>
+</Object>
+</SunopsisExport>

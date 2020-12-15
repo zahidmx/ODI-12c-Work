@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="eWL8BfnxjFpPM3TxlFvf3g==" exportKeySalt="0e5e1317-24d6-4a47-84de-d6dc1e3707c7" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="ShYRLl+Od4sEGuN/ARDxbg==" exportKeySalt="ca8b6eea-91e7-4c95-b543-c3345257eeee" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTrt">
 		<Field name="CleanupOnError" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="CompType" type="java.lang.String">null</Field>
@@ -12,7 +12,7 @@
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 21:02:42.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[8620f3b6-f40c-4ecb-b626-510aad870c95]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IndExcludeExUnitBegin" type="java.lang.String">null</Field>
 	<Field name="IndExcludeExUnitEnd" type="java.lang.String">null</Field>
 	<Field name="IndExcludeExUnitMain" type="java.lang.String">null</Field>
@@ -167,7 +167,7 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[P_DELETE_DATA Version 001]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[574879b2-a9b1-426b-a753-ccaaa18c4b08]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[244916b1c23a5f53ab2d236f756cddce50dbcc1e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[ee0c265bd95a858ef9a2ed00328b5db36f850baf]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Scenarios/SCEN_P_DELETE_DATA_Version_001.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">

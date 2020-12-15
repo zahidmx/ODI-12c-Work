@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="kavuGNJqTEkDWVYr76lwzg==" exportKeySalt="d0eb90ec-152b-4acf-92dd-4ece823f98e1" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="dcxk/m8uWZNaftmq4JnofA==" exportKeySalt="1bb82d34-53c7-45e1-93bc-cd39e3302256" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpMapping">
 		<Field name="BusinessName" type="java.lang.String">null</Field>
 	<Field name="Descript" type="java.lang.String">null</Field>
@@ -10,7 +10,7 @@
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 21:14:31.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[e578a871-4e02-49af-a0c0-2a21e0f1464e]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
 	<Field name="IsReusable" type="java.lang.String"><![CDATA[N]]></Field>
 	<Field name="IContextMapRef" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -10294,7 +10294,7 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[M_RPMT_PLAN Version 001]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[0e987cdf-6ee0-405f-afd8-0cd3b8d2abf2]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[244916b1c23a5f53ab2d236f756cddce50dbcc1e]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[1a952b7be4e90805504b3589386322c830a7802b]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Scenarios/SCEN_M_RPMT_PLAN_Version_001.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="c7JgakcE5NOft5PcBwTAAw==" exportKeySalt="0f58683c-9a62-4183-b121-ef984cc0e142" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="PgsVpYdawrKygd+MkvxLXw==" exportKeySalt="d829621e-382b-474f-8104-f236271e482a" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpScen">
 		<Field name="CecSessBehavior" type="java.lang.String"><![CDATA[E]]></Field>
 	<Field name="CecSessPollIntv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -11,7 +11,7 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[d4dd531b-cce8-4aac-b96c-322b0e1c0dcd]]></Field>
 	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
 	<Field name="IndPromptParam" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[16]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
 	<Field name="IsMaterialized" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IDeploySpec" type="com.sunopsis.sql.DbInt"><![CDATA[14]]></Field>
 	<Field name="IMapping" type="com.sunopsis.sql.DbInt"><![CDATA[14]]></Field>
@@ -21,7 +21,7 @@
 	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITxtScen" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-15 10:18:01.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-15 11:25:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="MaxCecSess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="RepGuid" type="java.lang.String">null</Field>
@@ -29,7 +29,7 @@
 	<Field name="RestartType" type="java.lang.String">null</Field>
 	<Field name="ScenName" type="java.lang.String"><![CDATA[M_CONTRACT]]></Field>
 	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
-	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[5]]></Field>
 	<Field name="ScenVersion" type="java.lang.String"><![CDATA[001]]></Field>
 	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
 </Object>
@@ -63,7 +63,7 @@
    </node>
    <target name="CONTRACT" resource="CONTRACT" model="MDL_ODI_TRG" logicalSchema="LS_ODI_TRG" forcedContext=""/>
 </map-generation-info>]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[bdf9ebf5-b055-4e12-a09f-c6afedbd773f]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[76d55a76-f5a5-4c94-a268-684d3e8f847e]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
 	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
@@ -113,7 +113,7 @@
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[c8f0ae4b-5a57-4b7b-b234-0e63629acfd1]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[132272cf-74f6-44ed-bd77-1bef3e9c0ba7]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -153,7 +153,7 @@
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[954bffa4-daae-4e99-b6e7-3d3ca600e7fc]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[89ff441f-2a40-4039-a71e-1d2b5bf16209]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -412,7 +412,7 @@ LOAN_CRITERIA_ID NUMBER(10,0) NULL
 )
        ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[03ad915c-8221-46d1-a61e-e69113996922]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bc4c2d7a-a7e1-4b1f-b54c-b5b59d797255]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -454,7 +454,7 @@ LOAN_CRITERIA_ID NUMBER(10,0) NULL
 drop table <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") ?>
        ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[680e85c6-65ff-4465-95c1-28107c54a7e0]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[79ed7e5b-93dd-4b96-8762-4e7d92c10b43]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -494,7 +494,7 @@ drop table <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") ?
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[a2af5ee0-8bf9-45b3-b26e-55198617cb24]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e229a69a-d12b-45a7-b082-a7735d6bb05b]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -534,525 +534,7 @@ drop table <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") ?
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[9590d336-59d3-4fe4-8e87-d2f62f3a0593]]></Field>
-	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndLogMethod" type="java.lang.String">null</Field>
-	<Field name="IndLogNb" type="java.lang.String">null</Field>
-	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
-	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
-	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
-	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
-	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[80]]></Field>
-	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
-	<Field name="TaskName2" type="java.lang.String"><![CDATA[EU]]></Field>
-	<Field name="TaskName3" type="java.lang.String"><![CDATA[LS_ODI_TRG_UNIT]]></Field>
-	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
-		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="ColConnectId" type="java.lang.String">null</Field>
-	<Field name="ColContextCode" type="java.lang.String">null</Field>
-	<Field name="ColEncKey" type="java.lang.String">null</Field>
-	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
-	<Field name="ColIndCommit" type="java.lang.String">null</Field>
-	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
-	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[LS_ODI_TRG]]></Field>
-	<Field name="ColTechIntName" type="java.lang.String">null</Field>
-	<Field name="ColTxt" type="java.lang.String">null</Field>
-	<Field name="DefConnectId" type="java.lang.String">null</Field>
-	<Field name="DefContextCode" type="java.lang.String">null</Field>
-	<Field name="DefEncKey" type="java.lang.String">null</Field>
-	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
-	<Field name="DefIndCommit" type="java.lang.String">null</Field>
-	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="DefIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
-	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[LS_ODI_TRG]]></Field>
-	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
-	<Field name="DefTxt" type="java.lang.String"><![CDATA[
-INSERT 
-  INTO <?= odiRef.getObjectName("L", "CONTRACT", "LS_ODI_TRG", "D") ?>
-  (
-    CONTRACT_ID ,
-    LOAN_GRADE_CDE ,
-    BSP_BANK_ID ,
-    BSP_BRANCH_ID ,
-    LEASE_AGREEMENT_ID ,
-    RENTAL_AGREEMENT_ID ,
-    BSP_RELATIONSHIP_CDE ,
-    STATE_CDE ,
-    CONTRACT_REFERENCE_ID ,
-    BP_COMPANY_ID ,
-    BP_COMPANYBRANCH_ID ,
-    COMPANYBRANCH_RELATIONSHIP_CDE ,
-    BP_DEALER_ID ,
-    BP_DEALERBRANCH_ID ,
-    DEALERBRANCH_RELATIONSHIP_CDE ,
-    REQUEST_STATUS_CDE ,
-    REQUEST_TYPE_CDE ,
-    FP_GROUP_ID ,
-    FINANCIAL_PRODUCT_ID ,
-    PAYMENT_MODE_CDE ,
-    EXTERNAL_CONTRACT_NBR ,
-    CONTRACT_TRM ,
-    CONTRACT_MINIMUM_TRM ,
-    ACT_IND ,
-    CONTRACT_START_DTE ,
-    CONTRACT_END_DTE ,
-    CONTRACT_ACTIVATION_DTE ,
-    CONTRACT_CREATION_DTE ,
-    PROPOSAL_NBR ,
-    PROPOSAL_CREATION_DTE ,
-    PROPOSAL_END_DTE ,
-    PROPOSAL_AMT ,
-    SETTLEMENT_START_DTE ,
-    SETTLEMENT_END_DTE ,
-    COLLATERAL_SECURITY_IND ,
-    OVERDUE_INTEREST_IND ,
-    INVOICE_IND ,
-    PAYMENT_DD ,
-    BOS_EXPIRY_DTE ,
-    EXECUTION_DTE ,
-    INSERTED_BY ,
-    GENERAL_PROVISION_RTE ,
-    GENERAL_PROVISION_AMT ,
-    GENERAL_PROVISION_DTE ,
-    SP_VALUE_AMT ,
-    SPECIFIC_PROVISION_RTE ,
-    SPECIFIC_PROVISION_AMT ,
-    SPECIFIC_PROVISION_DTE ,
-    SUBSIDY_TRM ,
-    SP_REVERSAL_AMT ,
-    SUBSIDY_AMT ,
-    OLD_REQUESTSTATUS_CDE ,
-    OLD_REQUESTTYPE_CDE ,
-    OLD_EXECUTION_DTE ,
-    NUMBEROF_MODIFICATION_MSR ,
-    NEXT_RENTALDUE_DTE ,
-    OVERDUE_DD ,
-    LIVE_STS ,
-    COSTOF_FUND_RTE ,
-    INSTALLMENT_AMT ,
-    CONTRACT_MATURITY_DTE ,
-    SHORTFALL_AMT ,
-    WRITEOFF_AMT ,
-    CONTRACT_CLOSING_DTE ,
-    CONTRACT_TYP ,
-    REFUND_AMT ,
-    FIRSTRENTAL_DEDUCTION_AMT ,
-    CHARGE_DEDUCTION_AMT ,
-    REFUND_STS ,
-    INCOME_SUSPENSE_IND ,
-    INCOME_SUSPENSE_DTE ,
-    INCOME_SUSPENSE_AMT ,
-    FIRSTRENTAL_DEDUCTION_IND ,
-    CHARGE_DEDUCTION_IND ,
-    ASSET_MARKSTATUS_CDE ,
-    REMINDER_TYPE_CDE ,
-    REMINDER_DTE ,
-    CLOSING_IND ,
-    TOTAL_SUBSIDY_AMT ,
-    LEASE_AGREEMENT_IND ,
-    RENTAL_AGREEMENT_IND ,
-    PRIVATE_SALE_IND ,
-    TOTAL_INSTALLMENT_NBR ,
-    LEGAL_REFERENCE_NBR ,
-    BPAY_NBR ,
-    CONTRACT_AGREEMENT_DTE ,
-    HISTORY_IND ,
-    OPENING_BALANCE_AMT ,
-    OPENING_BALANCE_DTE ,
-    ET_QUOTATION_ID ,
-    PAYABLE_STS ,
-    INCOME_AMT ,
-    NET_REFUND_AMT ,
-    OLD_SUSPENSE_AMT ,
-    SUSPENSE_MONTHEFFECT_AMT ,
-    SUSPENSE_REVERSAL_AMT ,
-    SECURITIZATION_DTE ,
-    SECURITIZATION_IND ,
-    MONITORING_DTE ,
-    MONITORING_IND ,
-    FIMIS_REVIEW_DTE ,
-    VIR_UNEARNED_AMT ,
-    VARIABLE_POS_AMT ,
-    SUSPENSE_RENTAL_MSR ,
-    DEALER_REFUND_AMT ,
-    VARIPLUS_ADJUSTMENT_AMT ,
-    SECONDARY_PAYMODE_IND ,
-    MULTIPLE_ASSET_IND ,
-    EXTERNAL_REFINANCE_IND ,
-    SECONDARY_PAYMENT_MODE_CDE ,
-    ET_FORMULA_TYP ,
-    BUYBACK_IND ,
-    GSTCLAIM_SHORTFALL_AMT ,
-    BROKER_IND ,
-    SUBSIDY_CALC_MTD ,
-    SUBSIDY_RTE ,
-    SUBSIDIZED_IRR_RTE ,
-    PROPOSAL_RECOMMENDED_BY ,
-    PROPOSAL_APPROVED_BY ,
-    POINT_SCORE_STS ,
-    WEEK_DAY ,
-    PRINCIPAL_WRITEOFF_AMT ,
-    RENTAL_WRITEOFF_AMT ,
-    PAYMENT_FREQUENCY_CDE ,
-    REPOSSESSLETTER_REPLY_DTE ,
-    MATURITYLETTER_REPLY_DTE ,
-    WRITEOFF_SETTLE_AMT ,
-    CONTRACT_OVERDUE_DTE ,
-    CONTRACT_DEFAULT_DTE ,
-    CONTRACT_REMARKETING_DTE ,
-    SEND_REMINDERS_IND ,
-    LAST_OVERDUEREMINDER_DTE ,
-    LAST_DEFAULTREMINDER_DTE ,
-    CREDIT_RATING_CDE ,
-    OVER_MILLION_IND ,
-    CLAWBACK_RECOVERED_IND ,
-    REFUND_PAYMENTMODE_CDE ,
-    REPOSSESSION_REGISTER_AMT ,
-    ASSET_SALE_AMT ,
-    REDEMPTION_EXPIRY_DTE ,
-    BP_ACCOUNT_SEQ ,
-    CTR_TOTAL_REFUND_AMT ,
-    ET_NETPRESENT_AMT ,
-    WHOLESALE_CONTRA_IND ,
-    PAYEE_NME ,
-    PAYEE_ACCOUNT_NBR ,
-    ACCRUED_GST_AMT ,
-    GST_ADJUSTMENT_AMT ,
-    ACCRUED_GSTSETTLEMENT_AMT ,
-    INTERNAL_CONTRACT_NBR ,
-    REFINANCE_DEAL_IND ,
-    SETTLEMENT_STATUS_CDE ,
-    WRITEOFF_GSTSETTLE_AMT ,
-    SHORTFALL_SETTLE_AMT ,
-    PAYOUT_INCOME_AMT ,
-    DEALER_INCOME_AMT ,
-    TAX_SUBSIDY_AMT ,
-    AGREEMENT_TYP ,
-    CREATED_BY ,
-    CREATION_DTE ,
-    GENERATE_COUPON_IND ,
-    GENERATE_BPAY_IND ,
-    NEW_CUSTOMER_IND ,
-    CHEQUE_NBR ,
-    COMPANY_CODE ,
-    BP_REFUND_ID ,
-    REFUND_ROLE_CDE ,
-    PROPOSAL_IND ,
-    SUSPENSE_SUBSIDYREVERSAL_AMT ,
-    SUBSIDY_SUSPENSE_AMT ,
-    SUBSIDY_SUSPENSE_IND ,
-    SUSPENSE_INCOMEREVERSAL_AMT ,
-    SHORTFALL_NET_AMT ,
-    RENTAL_SUSPENSE_MM ,
-    VAT_SUSPENSE_AMT ,
-    SUSPENSE_VATREVERSAL_AMT ,
-    NETTING_OFF_IND ,
-    CONTRACT_ESTABLISHMENT_DTE ,
-    CITY_CDE ,
-    LOAN_CLASSIFICATION_CDE ,
-    CONTRACT_SIGN_DTE ,
-    CONFIRMATION_LETTER_DTE ,
-    LR_GURANTEE_IND ,
-    LR_COMPLETED_IND ,
-    INSURANCE_CLAIM_IND ,
-    NORMAL_DDPICK_IND ,
-    SP_SAP_IND ,
-    SPECIFIC_PROVISION_OLD_AMT ,
-    GENERAL_PROVISION_OLD_AMT ,
-    OVERDUE_SUSPENSE_AMT ,
-    SUSPENSE_OVERDUEREVERSAL_AMT ,
-    SEQUENCE_NBR ,
-    SUSPENSE_DD ,
-    HIGH_OVERDUE_DD ,
-    IS_PLETTER_GENERTED ,
-    LNCLS_OVERDUE_DD ,
-    CONSTRUCTION_COMP_DTE ,
-    AREA_TYPE_CDE ,
-    PAYMENT_TRANCH ,
-    PAYMENT_BASE_DTE ,
-    LNCLS_MDE ,
-    LNCLS_REASON_CDE ,
-    FC_CONTRACT_ID ,
-    FC_PROPOSAL_NBR ,
-    FC_CONTRACT_NBR ,
-    RENTAL_MONTHEND_IND ,
-    ADV_COMPANY_ID ,
-    GUARANTEE_METHOD_CDE ,
-    NETTING_OFF_AMT ,
-    ABS_PROJECT ,
-    ABS_PROJRCT_CODE ,
-    ABS_WRITE_OFF ,
-    ABS_LAST_UPDATED ,
-    WCS_IND ,
-    LOAN_CRITERIA_ID 
-  ) 
-SELECT 
-  FILTER_A.CONTRACT_ID ,
-  FILTER_A.LOAN_GRADE_CDE ,
-  FILTER_A.BSP_BANK_ID ,
-  FILTER_A.BSP_BRANCH_ID ,
-  FILTER_A.LEASE_AGREEMENT_ID ,
-  FILTER_A.RENTAL_AGREEMENT_ID ,
-  FILTER_A.BSP_RELATIONSHIP_CDE ,
-  FILTER_A.STATE_CDE ,
-  FILTER_A.CONTRACT_REFERENCE_ID ,
-  FILTER_A.BP_COMPANY_ID ,
-  FILTER_A.BP_COMPANYBRANCH_ID ,
-  FILTER_A.COMPANYBRANCH_RELATIONSHIP_CDE ,
-  FILTER_A.BP_DEALER_ID ,
-  FILTER_A.BP_DEALERBRANCH_ID ,
-  FILTER_A.DEALERBRANCH_RELATIONSHIP_CDE ,
-  FILTER_A.REQUEST_STATUS_CDE ,
-  FILTER_A.REQUEST_TYPE_CDE ,
-  FILTER_A.FP_GROUP_ID ,
-  FILTER_A.FINANCIAL_PRODUCT_ID ,
-  FILTER_A.PAYMENT_MODE_CDE ,
-  FILTER_A.EXTERNAL_CONTRACT_NBR ,
-  FILTER_A.CONTRACT_TRM ,
-  FILTER_A.CONTRACT_MINIMUM_TRM ,
-  FILTER_A.ACT_IND ,
-  FILTER_A.CONTRACT_START_DTE ,
-  FILTER_A.CONTRACT_END_DTE ,
-  FILTER_A.CONTRACT_ACTIVATION_DTE ,
-  FILTER_A.CONTRACT_CREATION_DTE ,
-  FILTER_A.PROPOSAL_NBR ,
-  FILTER_A.PROPOSAL_CREATION_DTE ,
-  FILTER_A.PROPOSAL_END_DTE ,
-  FILTER_A.PROPOSAL_AMT ,
-  FILTER_A.SETTLEMENT_START_DTE ,
-  FILTER_A.SETTLEMENT_END_DTE ,
-  FILTER_A.COLLATERAL_SECURITY_IND ,
-  FILTER_A.OVERDUE_INTEREST_IND ,
-  FILTER_A.INVOICE_IND ,
-  FILTER_A.PAYMENT_DD ,
-  FILTER_A.BOS_EXPIRY_DTE ,
-  FILTER_A.EXECUTION_DTE ,
-  FILTER_A.INSERTED_BY ,
-  FILTER_A.GENERAL_PROVISION_RTE ,
-  FILTER_A.GENERAL_PROVISION_AMT ,
-  FILTER_A.GENERAL_PROVISION_DTE ,
-  FILTER_A.SP_VALUE_AMT ,
-  FILTER_A.SPECIFIC_PROVISION_RTE ,
-  FILTER_A.SPECIFIC_PROVISION_AMT ,
-  FILTER_A.SPECIFIC_PROVISION_DTE ,
-  FILTER_A.SUBSIDY_TRM ,
-  FILTER_A.SP_REVERSAL_AMT ,
-  FILTER_A.SUBSIDY_AMT ,
-  FILTER_A.OLD_REQUESTSTATUS_CDE ,
-  FILTER_A.OLD_REQUESTTYPE_CDE ,
-  FILTER_A.OLD_EXECUTION_DTE ,
-  FILTER_A.NUMBEROF_MODIFICATION_MSR ,
-  FILTER_A.NEXT_RENTALDUE_DTE ,
-  FILTER_A.OVERDUE_DD ,
-  FILTER_A.LIVE_STS ,
-  FILTER_A.COSTOF_FUND_RTE ,
-  FILTER_A.INSTALLMENT_AMT ,
-  FILTER_A.CONTRACT_MATURITY_DTE ,
-  FILTER_A.SHORTFALL_AMT ,
-  FILTER_A.WRITEOFF_AMT ,
-  FILTER_A.CONTRACT_CLOSING_DTE ,
-  FILTER_A.CONTRACT_TYP ,
-  FILTER_A.REFUND_AMT ,
-  FILTER_A.FIRSTRENTAL_DEDUCTION_AMT ,
-  FILTER_A.CHARGE_DEDUCTION_AMT ,
-  FILTER_A.REFUND_STS ,
-  FILTER_A.INCOME_SUSPENSE_IND ,
-  FILTER_A.INCOME_SUSPENSE_DTE ,
-  FILTER_A.INCOME_SUSPENSE_AMT ,
-  FILTER_A.FIRSTRENTAL_DEDUCTION_IND ,
-  FILTER_A.CHARGE_DEDUCTION_IND ,
-  FILTER_A.ASSET_MARKSTATUS_CDE ,
-  FILTER_A.REMINDER_TYPE_CDE ,
-  FILTER_A.REMINDER_DTE ,
-  FILTER_A.CLOSING_IND ,
-  FILTER_A.TOTAL_SUBSIDY_AMT ,
-  FILTER_A.LEASE_AGREEMENT_IND ,
-  FILTER_A.RENTAL_AGREEMENT_IND ,
-  FILTER_A.PRIVATE_SALE_IND ,
-  FILTER_A.TOTAL_INSTALLMENT_NBR ,
-  FILTER_A.LEGAL_REFERENCE_NBR ,
-  FILTER_A.BPAY_NBR ,
-  FILTER_A.CONTRACT_AGREEMENT_DTE ,
-  FILTER_A.HISTORY_IND ,
-  FILTER_A.OPENING_BALANCE_AMT ,
-  FILTER_A.OPENING_BALANCE_DTE ,
-  FILTER_A.ET_QUOTATION_ID ,
-  FILTER_A.PAYABLE_STS ,
-  FILTER_A.INCOME_AMT ,
-  FILTER_A.NET_REFUND_AMT ,
-  FILTER_A.OLD_SUSPENSE_AMT ,
-  FILTER_A.SUSPENSE_MONTHEFFECT_AMT ,
-  FILTER_A.SUSPENSE_REVERSAL_AMT ,
-  FILTER_A.SECURITIZATION_DTE ,
-  FILTER_A.SECURITIZATION_IND ,
-  FILTER_A.MONITORING_DTE ,
-  FILTER_A.MONITORING_IND ,
-  FILTER_A.FIMIS_REVIEW_DTE ,
-  FILTER_A.VIR_UNEARNED_AMT ,
-  FILTER_A.VARIABLE_POS_AMT ,
-  FILTER_A.SUSPENSE_RENTAL_MSR ,
-  FILTER_A.DEALER_REFUND_AMT ,
-  FILTER_A.VARIPLUS_ADJUSTMENT_AMT ,
-  FILTER_A.SECONDARY_PAYMODE_IND ,
-  FILTER_A.MULTIPLE_ASSET_IND ,
-  FILTER_A.EXTERNAL_REFINANCE_IND ,
-  FILTER_A.SECONDARY_PAYMENT_MODE_CDE ,
-  FILTER_A.ET_FORMULA_TYP ,
-  FILTER_A.BUYBACK_IND ,
-  FILTER_A.GSTCLAIM_SHORTFALL_AMT ,
-  FILTER_A.BROKER_IND ,
-  FILTER_A.SUBSIDY_CALC_MTD ,
-  FILTER_A.SUBSIDY_RTE ,
-  FILTER_A.SUBSIDIZED_IRR_RTE ,
-  FILTER_A.PROPOSAL_RECOMMENDED_BY ,
-  FILTER_A.PROPOSAL_APPROVED_BY ,
-  FILTER_A.POINT_SCORE_STS ,
-  FILTER_A.WEEK_DAY ,
-  FILTER_A.PRINCIPAL_WRITEOFF_AMT ,
-  FILTER_A.RENTAL_WRITEOFF_AMT ,
-  FILTER_A.PAYMENT_FREQUENCY_CDE ,
-  FILTER_A.REPOSSESSLETTER_REPLY_DTE ,
-  FILTER_A.MATURITYLETTER_REPLY_DTE ,
-  FILTER_A.WRITEOFF_SETTLE_AMT ,
-  FILTER_A.CONTRACT_OVERDUE_DTE ,
-  FILTER_A.CONTRACT_DEFAULT_DTE ,
-  FILTER_A.CONTRACT_REMARKETING_DTE ,
-  FILTER_A.SEND_REMINDERS_IND ,
-  FILTER_A.LAST_OVERDUEREMINDER_DTE ,
-  FILTER_A.LAST_DEFAULTREMINDER_DTE ,
-  FILTER_A.CREDIT_RATING_CDE ,
-  FILTER_A.OVER_MILLION_IND ,
-  FILTER_A.CLAWBACK_RECOVERED_IND ,
-  FILTER_A.REFUND_PAYMENTMODE_CDE ,
-  FILTER_A.REPOSSESSION_REGISTER_AMT ,
-  FILTER_A.ASSET_SALE_AMT ,
-  FILTER_A.REDEMPTION_EXPIRY_DTE ,
-  FILTER_A.BP_ACCOUNT_SEQ ,
-  FILTER_A.CTR_TOTAL_REFUND_AMT ,
-  FILTER_A.ET_NETPRESENT_AMT ,
-  FILTER_A.WHOLESALE_CONTRA_IND ,
-  FILTER_A.PAYEE_NME ,
-  FILTER_A.PAYEE_ACCOUNT_NBR ,
-  FILTER_A.ACCRUED_GST_AMT ,
-  FILTER_A.GST_ADJUSTMENT_AMT ,
-  FILTER_A.ACCRUED_GSTSETTLEMENT_AMT ,
-  FILTER_A.INTERNAL_CONTRACT_NBR ,
-  FILTER_A.REFINANCE_DEAL_IND ,
-  FILTER_A.SETTLEMENT_STATUS_CDE ,
-  FILTER_A.WRITEOFF_GSTSETTLE_AMT ,
-  FILTER_A.SHORTFALL_SETTLE_AMT ,
-  FILTER_A.PAYOUT_INCOME_AMT ,
-  FILTER_A.DEALER_INCOME_AMT ,
-  FILTER_A.TAX_SUBSIDY_AMT ,
-  FILTER_A.AGREEMENT_TYP ,
-  FILTER_A.CREATED_BY ,
-  FILTER_A.CREATION_DTE ,
-  FILTER_A.GENERATE_COUPON_IND ,
-  FILTER_A.GENERATE_BPAY_IND ,
-  FILTER_A.NEW_CUSTOMER_IND ,
-  FILTER_A.CHEQUE_NBR ,
-  FILTER_A.COMPANY_CODE ,
-  FILTER_A.BP_REFUND_ID ,
-  FILTER_A.REFUND_ROLE_CDE ,
-  FILTER_A.PROPOSAL_IND ,
-  FILTER_A.SUSPENSE_SUBSIDYREVERSAL_AMT ,
-  FILTER_A.SUBSIDY_SUSPENSE_AMT ,
-  FILTER_A.SUBSIDY_SUSPENSE_IND ,
-  FILTER_A.SUSPENSE_INCOMEREVERSAL_AMT ,
-  FILTER_A.SHORTFALL_NET_AMT ,
-  FILTER_A.RENTAL_SUSPENSE_MM ,
-  FILTER_A.VAT_SUSPENSE_AMT ,
-  FILTER_A.SUSPENSE_VATREVERSAL_AMT ,
-  FILTER_A.NETTING_OFF_IND ,
-  FILTER_A.CONTRACT_ESTABLISHMENT_DTE ,
-  FILTER_A.CITY_CDE ,
-  FILTER_A.LOAN_CLASSIFICATION_CDE ,
-  FILTER_A.CONTRACT_SIGN_DTE ,
-  FILTER_A.CONFIRMATION_LETTER_DTE ,
-  FILTER_A.LR_GURANTEE_IND ,
-  FILTER_A.LR_COMPLETED_IND ,
-  FILTER_A.INSURANCE_CLAIM_IND ,
-  FILTER_A.NORMAL_DDPICK_IND ,
-  FILTER_A.SP_SAP_IND ,
-  FILTER_A.SPECIFIC_PROVISION_OLD_AMT ,
-  FILTER_A.GENERAL_PROVISION_OLD_AMT ,
-  FILTER_A.OVERDUE_SUSPENSE_AMT ,
-  FILTER_A.SUSPENSE_OVERDUEREVERSAL_AMT ,
-  FILTER_A.SEQUENCE_NBR ,
-  FILTER_A.SUSPENSE_DD ,
-  FILTER_A.HIGH_OVERDUE_DD ,
-  FILTER_A.IS_PLETTER_GENERTED ,
-  FILTER_A.LNCLS_OVERDUE_DD ,
-  FILTER_A.CONSTRUCTION_COMP_DTE ,
-  FILTER_A.AREA_TYPE_CDE ,
-  FILTER_A.PAYMENT_TRANCH ,
-  FILTER_A.PAYMENT_BASE_DTE ,
-  FILTER_A.LNCLS_MDE ,
-  FILTER_A.LNCLS_REASON_CDE ,
-  FILTER_A.FC_CONTRACT_ID ,
-  FILTER_A.FC_PROPOSAL_NBR ,
-  FILTER_A.FC_CONTRACT_NBR ,
-  FILTER_A.RENTAL_MONTHEND_IND ,
-  FILTER_A.ADV_COMPANY_ID ,
-  FILTER_A.GUARANTEE_METHOD_CDE ,
-  FILTER_A.NETTING_OFF_AMT ,
-  FILTER_A.ABS_PROJECT ,
-  FILTER_A.ABS_PROJRCT_CODE ,
-  FILTER_A.ABS_WRITE_OFF ,
-  FILTER_A.ABS_LAST_UPDATED ,
-  FILTER_A.WCS_IND ,
-  FILTER_A.LOAN_CRITERIA_ID  
-FROM 
-  <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") ?> FILTER_A  
-      ]]></Field>
-	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[c159a713-20a5-4d23-a137-24ece8c63a16]]></Field>
-	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndLogMethod" type="java.lang.String">null</Field>
-	<Field name="IndLogNb" type="java.lang.String"><![CDATA[I]]></Field>
-	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
-	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
-	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
-	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
-	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[80]]></Field>
-	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
-	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
-	<Field name="TaskName1" type="java.lang.String"><![CDATA[Insert new rows]]></Field>
-	<Field name="TaskName2" type="java.lang.String"><![CDATA[IKM Oracle Multi-Insert]]></Field>
-	<Field name="TaskName3" type="java.lang.String"><![CDATA[Load CONTRACT1]]></Field>
-	<Field name="TaskType" type="java.lang.String"><![CDATA[J]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
-		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="ColConnectId" type="java.lang.String">null</Field>
-	<Field name="ColContextCode" type="java.lang.String">null</Field>
-	<Field name="ColEncKey" type="java.lang.String">null</Field>
-	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
-	<Field name="ColIndCommit" type="java.lang.String">null</Field>
-	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
-	<Field name="ColLschemaName" type="java.lang.String">null</Field>
-	<Field name="ColTechIntName" type="java.lang.String">null</Field>
-	<Field name="ColTxt" type="java.lang.String">null</Field>
-	<Field name="DefConnectId" type="java.lang.String">null</Field>
-	<Field name="DefContextCode" type="java.lang.String">null</Field>
-	<Field name="DefEncKey" type="java.lang.String">null</Field>
-	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
-	<Field name="DefIndCommit" type="java.lang.String">null</Field>
-	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
-	<Field name="DefLschemaName" type="java.lang.String">null</Field>
-	<Field name="DefTechIntName" type="java.lang.String">null</Field>
-	<Field name="DefTxt" type="java.lang.String">null</Field>
-	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[136ad106-a1c1-4559-8938-852af8ed3bc9]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[3617456a-5270-457b-a55e-8298eacadeb7]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -1749,7 +1231,7 @@ INSERT INTO <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") 
       )
     ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[bb2312e3-26b5-4d1d-8999-a8d690af50e6]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[db100624-49b4-4dfb-95c6-6fcd6408c049]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -1789,7 +1271,525 @@ INSERT INTO <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") 
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[3dec8bac-b901-4d32-abdb-478b2aa949f3]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[4282f7f0-d22b-4010-8a89-a092b667224f]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String">null</Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EB]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[80]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[SERIAL]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[EU]]></Field>
+	<Field name="TaskName3" type="java.lang.String"><![CDATA[LS_ODI_TRG_UNIT]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[L]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="ColLschemaName" type="java.lang.String"><![CDATA[LS_ODI_TRG]]></Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String"><![CDATA[D]]></Field>
+	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[LS_ODI_TRG]]></Field>
+	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[
+INSERT 
+  INTO <?= odiRef.getObjectName("L", "CONTRACT", "LS_ODI_TRG", "D") ?>
+  (
+    CONTRACT_ID ,
+    LOAN_GRADE_CDE ,
+    BSP_BANK_ID ,
+    BSP_BRANCH_ID ,
+    LEASE_AGREEMENT_ID ,
+    RENTAL_AGREEMENT_ID ,
+    BSP_RELATIONSHIP_CDE ,
+    STATE_CDE ,
+    CONTRACT_REFERENCE_ID ,
+    BP_COMPANY_ID ,
+    BP_COMPANYBRANCH_ID ,
+    COMPANYBRANCH_RELATIONSHIP_CDE ,
+    BP_DEALER_ID ,
+    BP_DEALERBRANCH_ID ,
+    DEALERBRANCH_RELATIONSHIP_CDE ,
+    REQUEST_STATUS_CDE ,
+    REQUEST_TYPE_CDE ,
+    FP_GROUP_ID ,
+    FINANCIAL_PRODUCT_ID ,
+    PAYMENT_MODE_CDE ,
+    EXTERNAL_CONTRACT_NBR ,
+    CONTRACT_TRM ,
+    CONTRACT_MINIMUM_TRM ,
+    ACT_IND ,
+    CONTRACT_START_DTE ,
+    CONTRACT_END_DTE ,
+    CONTRACT_ACTIVATION_DTE ,
+    CONTRACT_CREATION_DTE ,
+    PROPOSAL_NBR ,
+    PROPOSAL_CREATION_DTE ,
+    PROPOSAL_END_DTE ,
+    PROPOSAL_AMT ,
+    SETTLEMENT_START_DTE ,
+    SETTLEMENT_END_DTE ,
+    COLLATERAL_SECURITY_IND ,
+    OVERDUE_INTEREST_IND ,
+    INVOICE_IND ,
+    PAYMENT_DD ,
+    BOS_EXPIRY_DTE ,
+    EXECUTION_DTE ,
+    INSERTED_BY ,
+    GENERAL_PROVISION_RTE ,
+    GENERAL_PROVISION_AMT ,
+    GENERAL_PROVISION_DTE ,
+    SP_VALUE_AMT ,
+    SPECIFIC_PROVISION_RTE ,
+    SPECIFIC_PROVISION_AMT ,
+    SPECIFIC_PROVISION_DTE ,
+    SUBSIDY_TRM ,
+    SP_REVERSAL_AMT ,
+    SUBSIDY_AMT ,
+    OLD_REQUESTSTATUS_CDE ,
+    OLD_REQUESTTYPE_CDE ,
+    OLD_EXECUTION_DTE ,
+    NUMBEROF_MODIFICATION_MSR ,
+    NEXT_RENTALDUE_DTE ,
+    OVERDUE_DD ,
+    LIVE_STS ,
+    COSTOF_FUND_RTE ,
+    INSTALLMENT_AMT ,
+    CONTRACT_MATURITY_DTE ,
+    SHORTFALL_AMT ,
+    WRITEOFF_AMT ,
+    CONTRACT_CLOSING_DTE ,
+    CONTRACT_TYP ,
+    REFUND_AMT ,
+    FIRSTRENTAL_DEDUCTION_AMT ,
+    CHARGE_DEDUCTION_AMT ,
+    REFUND_STS ,
+    INCOME_SUSPENSE_IND ,
+    INCOME_SUSPENSE_DTE ,
+    INCOME_SUSPENSE_AMT ,
+    FIRSTRENTAL_DEDUCTION_IND ,
+    CHARGE_DEDUCTION_IND ,
+    ASSET_MARKSTATUS_CDE ,
+    REMINDER_TYPE_CDE ,
+    REMINDER_DTE ,
+    CLOSING_IND ,
+    TOTAL_SUBSIDY_AMT ,
+    LEASE_AGREEMENT_IND ,
+    RENTAL_AGREEMENT_IND ,
+    PRIVATE_SALE_IND ,
+    TOTAL_INSTALLMENT_NBR ,
+    LEGAL_REFERENCE_NBR ,
+    BPAY_NBR ,
+    CONTRACT_AGREEMENT_DTE ,
+    HISTORY_IND ,
+    OPENING_BALANCE_AMT ,
+    OPENING_BALANCE_DTE ,
+    ET_QUOTATION_ID ,
+    PAYABLE_STS ,
+    INCOME_AMT ,
+    NET_REFUND_AMT ,
+    OLD_SUSPENSE_AMT ,
+    SUSPENSE_MONTHEFFECT_AMT ,
+    SUSPENSE_REVERSAL_AMT ,
+    SECURITIZATION_DTE ,
+    SECURITIZATION_IND ,
+    MONITORING_DTE ,
+    MONITORING_IND ,
+    FIMIS_REVIEW_DTE ,
+    VIR_UNEARNED_AMT ,
+    VARIABLE_POS_AMT ,
+    SUSPENSE_RENTAL_MSR ,
+    DEALER_REFUND_AMT ,
+    VARIPLUS_ADJUSTMENT_AMT ,
+    SECONDARY_PAYMODE_IND ,
+    MULTIPLE_ASSET_IND ,
+    EXTERNAL_REFINANCE_IND ,
+    SECONDARY_PAYMENT_MODE_CDE ,
+    ET_FORMULA_TYP ,
+    BUYBACK_IND ,
+    GSTCLAIM_SHORTFALL_AMT ,
+    BROKER_IND ,
+    SUBSIDY_CALC_MTD ,
+    SUBSIDY_RTE ,
+    SUBSIDIZED_IRR_RTE ,
+    PROPOSAL_RECOMMENDED_BY ,
+    PROPOSAL_APPROVED_BY ,
+    POINT_SCORE_STS ,
+    WEEK_DAY ,
+    PRINCIPAL_WRITEOFF_AMT ,
+    RENTAL_WRITEOFF_AMT ,
+    PAYMENT_FREQUENCY_CDE ,
+    REPOSSESSLETTER_REPLY_DTE ,
+    MATURITYLETTER_REPLY_DTE ,
+    WRITEOFF_SETTLE_AMT ,
+    CONTRACT_OVERDUE_DTE ,
+    CONTRACT_DEFAULT_DTE ,
+    CONTRACT_REMARKETING_DTE ,
+    SEND_REMINDERS_IND ,
+    LAST_OVERDUEREMINDER_DTE ,
+    LAST_DEFAULTREMINDER_DTE ,
+    CREDIT_RATING_CDE ,
+    OVER_MILLION_IND ,
+    CLAWBACK_RECOVERED_IND ,
+    REFUND_PAYMENTMODE_CDE ,
+    REPOSSESSION_REGISTER_AMT ,
+    ASSET_SALE_AMT ,
+    REDEMPTION_EXPIRY_DTE ,
+    BP_ACCOUNT_SEQ ,
+    CTR_TOTAL_REFUND_AMT ,
+    ET_NETPRESENT_AMT ,
+    WHOLESALE_CONTRA_IND ,
+    PAYEE_NME ,
+    PAYEE_ACCOUNT_NBR ,
+    ACCRUED_GST_AMT ,
+    GST_ADJUSTMENT_AMT ,
+    ACCRUED_GSTSETTLEMENT_AMT ,
+    INTERNAL_CONTRACT_NBR ,
+    REFINANCE_DEAL_IND ,
+    SETTLEMENT_STATUS_CDE ,
+    WRITEOFF_GSTSETTLE_AMT ,
+    SHORTFALL_SETTLE_AMT ,
+    PAYOUT_INCOME_AMT ,
+    DEALER_INCOME_AMT ,
+    TAX_SUBSIDY_AMT ,
+    AGREEMENT_TYP ,
+    CREATED_BY ,
+    CREATION_DTE ,
+    GENERATE_COUPON_IND ,
+    GENERATE_BPAY_IND ,
+    NEW_CUSTOMER_IND ,
+    CHEQUE_NBR ,
+    COMPANY_CODE ,
+    BP_REFUND_ID ,
+    REFUND_ROLE_CDE ,
+    PROPOSAL_IND ,
+    SUSPENSE_SUBSIDYREVERSAL_AMT ,
+    SUBSIDY_SUSPENSE_AMT ,
+    SUBSIDY_SUSPENSE_IND ,
+    SUSPENSE_INCOMEREVERSAL_AMT ,
+    SHORTFALL_NET_AMT ,
+    RENTAL_SUSPENSE_MM ,
+    VAT_SUSPENSE_AMT ,
+    SUSPENSE_VATREVERSAL_AMT ,
+    NETTING_OFF_IND ,
+    CONTRACT_ESTABLISHMENT_DTE ,
+    CITY_CDE ,
+    LOAN_CLASSIFICATION_CDE ,
+    CONTRACT_SIGN_DTE ,
+    CONFIRMATION_LETTER_DTE ,
+    LR_GURANTEE_IND ,
+    LR_COMPLETED_IND ,
+    INSURANCE_CLAIM_IND ,
+    NORMAL_DDPICK_IND ,
+    SP_SAP_IND ,
+    SPECIFIC_PROVISION_OLD_AMT ,
+    GENERAL_PROVISION_OLD_AMT ,
+    OVERDUE_SUSPENSE_AMT ,
+    SUSPENSE_OVERDUEREVERSAL_AMT ,
+    SEQUENCE_NBR ,
+    SUSPENSE_DD ,
+    HIGH_OVERDUE_DD ,
+    IS_PLETTER_GENERTED ,
+    LNCLS_OVERDUE_DD ,
+    CONSTRUCTION_COMP_DTE ,
+    AREA_TYPE_CDE ,
+    PAYMENT_TRANCH ,
+    PAYMENT_BASE_DTE ,
+    LNCLS_MDE ,
+    LNCLS_REASON_CDE ,
+    FC_CONTRACT_ID ,
+    FC_PROPOSAL_NBR ,
+    FC_CONTRACT_NBR ,
+    RENTAL_MONTHEND_IND ,
+    ADV_COMPANY_ID ,
+    GUARANTEE_METHOD_CDE ,
+    NETTING_OFF_AMT ,
+    ABS_PROJECT ,
+    ABS_PROJRCT_CODE ,
+    ABS_WRITE_OFF ,
+    ABS_LAST_UPDATED ,
+    WCS_IND ,
+    LOAN_CRITERIA_ID 
+  ) 
+SELECT 
+  FILTER_A.CONTRACT_ID ,
+  FILTER_A.LOAN_GRADE_CDE ,
+  FILTER_A.BSP_BANK_ID ,
+  FILTER_A.BSP_BRANCH_ID ,
+  FILTER_A.LEASE_AGREEMENT_ID ,
+  FILTER_A.RENTAL_AGREEMENT_ID ,
+  FILTER_A.BSP_RELATIONSHIP_CDE ,
+  FILTER_A.STATE_CDE ,
+  FILTER_A.CONTRACT_REFERENCE_ID ,
+  FILTER_A.BP_COMPANY_ID ,
+  FILTER_A.BP_COMPANYBRANCH_ID ,
+  FILTER_A.COMPANYBRANCH_RELATIONSHIP_CDE ,
+  FILTER_A.BP_DEALER_ID ,
+  FILTER_A.BP_DEALERBRANCH_ID ,
+  FILTER_A.DEALERBRANCH_RELATIONSHIP_CDE ,
+  FILTER_A.REQUEST_STATUS_CDE ,
+  FILTER_A.REQUEST_TYPE_CDE ,
+  FILTER_A.FP_GROUP_ID ,
+  FILTER_A.FINANCIAL_PRODUCT_ID ,
+  FILTER_A.PAYMENT_MODE_CDE ,
+  FILTER_A.EXTERNAL_CONTRACT_NBR ,
+  FILTER_A.CONTRACT_TRM ,
+  FILTER_A.CONTRACT_MINIMUM_TRM ,
+  FILTER_A.ACT_IND ,
+  FILTER_A.CONTRACT_START_DTE ,
+  FILTER_A.CONTRACT_END_DTE ,
+  FILTER_A.CONTRACT_ACTIVATION_DTE ,
+  FILTER_A.CONTRACT_CREATION_DTE ,
+  FILTER_A.PROPOSAL_NBR ,
+  FILTER_A.PROPOSAL_CREATION_DTE ,
+  FILTER_A.PROPOSAL_END_DTE ,
+  FILTER_A.PROPOSAL_AMT ,
+  FILTER_A.SETTLEMENT_START_DTE ,
+  FILTER_A.SETTLEMENT_END_DTE ,
+  FILTER_A.COLLATERAL_SECURITY_IND ,
+  FILTER_A.OVERDUE_INTEREST_IND ,
+  FILTER_A.INVOICE_IND ,
+  FILTER_A.PAYMENT_DD ,
+  FILTER_A.BOS_EXPIRY_DTE ,
+  FILTER_A.EXECUTION_DTE ,
+  FILTER_A.INSERTED_BY ,
+  FILTER_A.GENERAL_PROVISION_RTE ,
+  FILTER_A.GENERAL_PROVISION_AMT ,
+  FILTER_A.GENERAL_PROVISION_DTE ,
+  FILTER_A.SP_VALUE_AMT ,
+  FILTER_A.SPECIFIC_PROVISION_RTE ,
+  FILTER_A.SPECIFIC_PROVISION_AMT ,
+  FILTER_A.SPECIFIC_PROVISION_DTE ,
+  FILTER_A.SUBSIDY_TRM ,
+  FILTER_A.SP_REVERSAL_AMT ,
+  FILTER_A.SUBSIDY_AMT ,
+  FILTER_A.OLD_REQUESTSTATUS_CDE ,
+  FILTER_A.OLD_REQUESTTYPE_CDE ,
+  FILTER_A.OLD_EXECUTION_DTE ,
+  FILTER_A.NUMBEROF_MODIFICATION_MSR ,
+  FILTER_A.NEXT_RENTALDUE_DTE ,
+  FILTER_A.OVERDUE_DD ,
+  FILTER_A.LIVE_STS ,
+  FILTER_A.COSTOF_FUND_RTE ,
+  FILTER_A.INSTALLMENT_AMT ,
+  FILTER_A.CONTRACT_MATURITY_DTE ,
+  FILTER_A.SHORTFALL_AMT ,
+  FILTER_A.WRITEOFF_AMT ,
+  FILTER_A.CONTRACT_CLOSING_DTE ,
+  FILTER_A.CONTRACT_TYP ,
+  FILTER_A.REFUND_AMT ,
+  FILTER_A.FIRSTRENTAL_DEDUCTION_AMT ,
+  FILTER_A.CHARGE_DEDUCTION_AMT ,
+  FILTER_A.REFUND_STS ,
+  FILTER_A.INCOME_SUSPENSE_IND ,
+  FILTER_A.INCOME_SUSPENSE_DTE ,
+  FILTER_A.INCOME_SUSPENSE_AMT ,
+  FILTER_A.FIRSTRENTAL_DEDUCTION_IND ,
+  FILTER_A.CHARGE_DEDUCTION_IND ,
+  FILTER_A.ASSET_MARKSTATUS_CDE ,
+  FILTER_A.REMINDER_TYPE_CDE ,
+  FILTER_A.REMINDER_DTE ,
+  FILTER_A.CLOSING_IND ,
+  FILTER_A.TOTAL_SUBSIDY_AMT ,
+  FILTER_A.LEASE_AGREEMENT_IND ,
+  FILTER_A.RENTAL_AGREEMENT_IND ,
+  FILTER_A.PRIVATE_SALE_IND ,
+  FILTER_A.TOTAL_INSTALLMENT_NBR ,
+  FILTER_A.LEGAL_REFERENCE_NBR ,
+  FILTER_A.BPAY_NBR ,
+  FILTER_A.CONTRACT_AGREEMENT_DTE ,
+  FILTER_A.HISTORY_IND ,
+  FILTER_A.OPENING_BALANCE_AMT ,
+  FILTER_A.OPENING_BALANCE_DTE ,
+  FILTER_A.ET_QUOTATION_ID ,
+  FILTER_A.PAYABLE_STS ,
+  FILTER_A.INCOME_AMT ,
+  FILTER_A.NET_REFUND_AMT ,
+  FILTER_A.OLD_SUSPENSE_AMT ,
+  FILTER_A.SUSPENSE_MONTHEFFECT_AMT ,
+  FILTER_A.SUSPENSE_REVERSAL_AMT ,
+  FILTER_A.SECURITIZATION_DTE ,
+  FILTER_A.SECURITIZATION_IND ,
+  FILTER_A.MONITORING_DTE ,
+  FILTER_A.MONITORING_IND ,
+  FILTER_A.FIMIS_REVIEW_DTE ,
+  FILTER_A.VIR_UNEARNED_AMT ,
+  FILTER_A.VARIABLE_POS_AMT ,
+  FILTER_A.SUSPENSE_RENTAL_MSR ,
+  FILTER_A.DEALER_REFUND_AMT ,
+  FILTER_A.VARIPLUS_ADJUSTMENT_AMT ,
+  FILTER_A.SECONDARY_PAYMODE_IND ,
+  FILTER_A.MULTIPLE_ASSET_IND ,
+  FILTER_A.EXTERNAL_REFINANCE_IND ,
+  FILTER_A.SECONDARY_PAYMENT_MODE_CDE ,
+  FILTER_A.ET_FORMULA_TYP ,
+  FILTER_A.BUYBACK_IND ,
+  FILTER_A.GSTCLAIM_SHORTFALL_AMT ,
+  FILTER_A.BROKER_IND ,
+  FILTER_A.SUBSIDY_CALC_MTD ,
+  FILTER_A.SUBSIDY_RTE ,
+  FILTER_A.SUBSIDIZED_IRR_RTE ,
+  FILTER_A.PROPOSAL_RECOMMENDED_BY ,
+  FILTER_A.PROPOSAL_APPROVED_BY ,
+  FILTER_A.POINT_SCORE_STS ,
+  FILTER_A.WEEK_DAY ,
+  FILTER_A.PRINCIPAL_WRITEOFF_AMT ,
+  FILTER_A.RENTAL_WRITEOFF_AMT ,
+  FILTER_A.PAYMENT_FREQUENCY_CDE ,
+  FILTER_A.REPOSSESSLETTER_REPLY_DTE ,
+  FILTER_A.MATURITYLETTER_REPLY_DTE ,
+  FILTER_A.WRITEOFF_SETTLE_AMT ,
+  FILTER_A.CONTRACT_OVERDUE_DTE ,
+  FILTER_A.CONTRACT_DEFAULT_DTE ,
+  FILTER_A.CONTRACT_REMARKETING_DTE ,
+  FILTER_A.SEND_REMINDERS_IND ,
+  FILTER_A.LAST_OVERDUEREMINDER_DTE ,
+  FILTER_A.LAST_DEFAULTREMINDER_DTE ,
+  FILTER_A.CREDIT_RATING_CDE ,
+  FILTER_A.OVER_MILLION_IND ,
+  FILTER_A.CLAWBACK_RECOVERED_IND ,
+  FILTER_A.REFUND_PAYMENTMODE_CDE ,
+  FILTER_A.REPOSSESSION_REGISTER_AMT ,
+  FILTER_A.ASSET_SALE_AMT ,
+  FILTER_A.REDEMPTION_EXPIRY_DTE ,
+  FILTER_A.BP_ACCOUNT_SEQ ,
+  FILTER_A.CTR_TOTAL_REFUND_AMT ,
+  FILTER_A.ET_NETPRESENT_AMT ,
+  FILTER_A.WHOLESALE_CONTRA_IND ,
+  FILTER_A.PAYEE_NME ,
+  FILTER_A.PAYEE_ACCOUNT_NBR ,
+  FILTER_A.ACCRUED_GST_AMT ,
+  FILTER_A.GST_ADJUSTMENT_AMT ,
+  FILTER_A.ACCRUED_GSTSETTLEMENT_AMT ,
+  FILTER_A.INTERNAL_CONTRACT_NBR ,
+  FILTER_A.REFINANCE_DEAL_IND ,
+  FILTER_A.SETTLEMENT_STATUS_CDE ,
+  FILTER_A.WRITEOFF_GSTSETTLE_AMT ,
+  FILTER_A.SHORTFALL_SETTLE_AMT ,
+  FILTER_A.PAYOUT_INCOME_AMT ,
+  FILTER_A.DEALER_INCOME_AMT ,
+  FILTER_A.TAX_SUBSIDY_AMT ,
+  FILTER_A.AGREEMENT_TYP ,
+  FILTER_A.CREATED_BY ,
+  FILTER_A.CREATION_DTE ,
+  FILTER_A.GENERATE_COUPON_IND ,
+  FILTER_A.GENERATE_BPAY_IND ,
+  FILTER_A.NEW_CUSTOMER_IND ,
+  FILTER_A.CHEQUE_NBR ,
+  FILTER_A.COMPANY_CODE ,
+  FILTER_A.BP_REFUND_ID ,
+  FILTER_A.REFUND_ROLE_CDE ,
+  FILTER_A.PROPOSAL_IND ,
+  FILTER_A.SUSPENSE_SUBSIDYREVERSAL_AMT ,
+  FILTER_A.SUBSIDY_SUSPENSE_AMT ,
+  FILTER_A.SUBSIDY_SUSPENSE_IND ,
+  FILTER_A.SUSPENSE_INCOMEREVERSAL_AMT ,
+  FILTER_A.SHORTFALL_NET_AMT ,
+  FILTER_A.RENTAL_SUSPENSE_MM ,
+  FILTER_A.VAT_SUSPENSE_AMT ,
+  FILTER_A.SUSPENSE_VATREVERSAL_AMT ,
+  FILTER_A.NETTING_OFF_IND ,
+  FILTER_A.CONTRACT_ESTABLISHMENT_DTE ,
+  FILTER_A.CITY_CDE ,
+  FILTER_A.LOAN_CLASSIFICATION_CDE ,
+  FILTER_A.CONTRACT_SIGN_DTE ,
+  FILTER_A.CONFIRMATION_LETTER_DTE ,
+  FILTER_A.LR_GURANTEE_IND ,
+  FILTER_A.LR_COMPLETED_IND ,
+  FILTER_A.INSURANCE_CLAIM_IND ,
+  FILTER_A.NORMAL_DDPICK_IND ,
+  FILTER_A.SP_SAP_IND ,
+  FILTER_A.SPECIFIC_PROVISION_OLD_AMT ,
+  FILTER_A.GENERAL_PROVISION_OLD_AMT ,
+  FILTER_A.OVERDUE_SUSPENSE_AMT ,
+  FILTER_A.SUSPENSE_OVERDUEREVERSAL_AMT ,
+  FILTER_A.SEQUENCE_NBR ,
+  FILTER_A.SUSPENSE_DD ,
+  FILTER_A.HIGH_OVERDUE_DD ,
+  FILTER_A.IS_PLETTER_GENERTED ,
+  FILTER_A.LNCLS_OVERDUE_DD ,
+  FILTER_A.CONSTRUCTION_COMP_DTE ,
+  FILTER_A.AREA_TYPE_CDE ,
+  FILTER_A.PAYMENT_TRANCH ,
+  FILTER_A.PAYMENT_BASE_DTE ,
+  FILTER_A.LNCLS_MDE ,
+  FILTER_A.LNCLS_REASON_CDE ,
+  FILTER_A.FC_CONTRACT_ID ,
+  FILTER_A.FC_PROPOSAL_NBR ,
+  FILTER_A.FC_CONTRACT_NBR ,
+  FILTER_A.RENTAL_MONTHEND_IND ,
+  FILTER_A.ADV_COMPANY_ID ,
+  FILTER_A.GUARANTEE_METHOD_CDE ,
+  FILTER_A.NETTING_OFF_AMT ,
+  FILTER_A.ABS_PROJECT ,
+  FILTER_A.ABS_PROJRCT_CODE ,
+  FILTER_A.ABS_WRITE_OFF ,
+  FILTER_A.ABS_LAST_UPDATED ,
+  FILTER_A.WCS_IND ,
+  FILTER_A.LOAN_CRITERIA_ID  
+FROM 
+  <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") ?> FILTER_A  
+      ]]></Field>
+	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[c78fd232-3e48-4940-9564-a3e0de8672ea]]></Field>
+	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="IndLogMethod" type="java.lang.String">null</Field>
+	<Field name="IndLogNb" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
+	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
+	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[80]]></Field>
+	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Insert new rows]]></Field>
+	<Field name="TaskName2" type="java.lang.String"><![CDATA[IKM Oracle Multi-Insert]]></Field>
+	<Field name="TaskName3" type="java.lang.String"><![CDATA[Load CONTRACT1]]></Field>
+	<Field name="TaskType" type="java.lang.String"><![CDATA[J]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpScenTask">
+		<Field name="BrpId" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="ColConnectId" type="java.lang.String">null</Field>
+	<Field name="ColContextCode" type="java.lang.String">null</Field>
+	<Field name="ColEncKey" type="java.lang.String">null</Field>
+	<Field name="ColEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="ColIndCommit" type="java.lang.String">null</Field>
+	<Field name="ColIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ColIsolLevel" type="java.lang.String">null</Field>
+	<Field name="ColLschemaName" type="java.lang.String">null</Field>
+	<Field name="ColTechIntName" type="java.lang.String">null</Field>
+	<Field name="ColTxt" type="java.lang.String">null</Field>
+	<Field name="DefConnectId" type="java.lang.String">null</Field>
+	<Field name="DefContextCode" type="java.lang.String">null</Field>
+	<Field name="DefEncKey" type="java.lang.String">null</Field>
+	<Field name="DefEncKeyVect" type="java.lang.String">null</Field>
+	<Field name="DefIndCommit" type="java.lang.String">null</Field>
+	<Field name="DefIndEnc" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
+	<Field name="DefLschemaName" type="java.lang.String">null</Field>
+	<Field name="DefTechIntName" type="java.lang.String">null</Field>
+	<Field name="DefTxt" type="java.lang.String">null</Field>
+	<Field name="ExeChannel" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[8aa72007-8021-4ed0-b29c-25e17943603b]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -1829,7 +1829,7 @@ INSERT INTO <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") 
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[73065261-80ab-46e9-939d-b6559fce7ecc]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[481a7907-cab6-4145-a6d9-5931373893be]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -1871,7 +1871,7 @@ INSERT INTO <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") 
 drop table <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") ?>
        ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[4f5ff8af-5a16-481d-a04b-34976a523ee6]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[58baed6a-8feb-4ef7-a171-851c6ef18b84]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -1911,7 +1911,7 @@ drop table <?= odiRef.getObjectName("L", "%COL_PRF0FILTER", "LS_ODI_TRG", "W") ?
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.12.10]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[bdf9ebf5-b055-4e12-a09f-c6afedbd773f]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[76d55a76-f5a5-4c94-a268-684d3e8f847e]]></Field>
  <Field name="RefObjFQName" type="java.lang.String">null</Field>
  <Field name="RefObjFQType" type="java.lang.String">null</Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>

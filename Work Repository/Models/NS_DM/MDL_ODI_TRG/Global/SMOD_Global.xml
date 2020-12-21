@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="FZk5FmW509/tL//j5U9pdA==" exportKeySalt="5c73835a-3f50-4202-b3e7-244f3029565e" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="AW3uWC37+jeS1JlSpvotHQ==" exportKeySalt="a8f08c88-d92e-44b8-ab71-b22834a94ed3" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpSubModel">
 		<Field name="CodSmod" type="java.lang.String"><![CDATA[DEFAULT]]></Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 18:59:05.0]]></Field>
@@ -12,13 +12,37 @@
 	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
 	<Field name="ISmod" type="com.sunopsis.sql.DbInt"><![CDATA[8]]></Field>
 	<Field name="ISmodParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 21:00:26.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-21 13:53:14.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="RevApplyPattern" type="java.lang.String">null</Field>
 	<Field name="RevPatternOrder" type="java.lang.String">null</Field>
 	<Field name="SmodName" type="java.lang.String"><![CDATA[Global]]></Field>
 	<Field name="SmodType" type="java.lang.String"><![CDATA[D]]></Field>
 	<Field name="TableNamePattern" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[DEPT]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[22c5fea6-18fb-4583-ad09-9268c90c6eb1]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[cd76a938ef2633020432fdfb342a55e35b2705ca]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_DEPT.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[EMP]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[72b1d519-97af-40fe-8a30-a371ba3e7126]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[53990dffcb828fedd6a90dc3f1d8b0c783ca97c7]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_EMP.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[EMP_LOOP_UP]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[36d0caab-0535-42d9-8b70-17ed2bd68177]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[aafcad8437afcaa1b8959afb60cfd2faaa2ba276]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_EMP_LOOP_UP.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
 		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>

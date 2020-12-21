@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="4rRL0lXkJ7vkeb5zfhmpyg==" exportKeySalt="59c17aaa-0da6-4ec7-b34e-8707d586a653" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="T/1rhXXHUgs6xO1W5+s4/w==" exportKeySalt="8102fa07-c23c-44eb-9fe0-e8269e16b9af" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpModFolder">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 18:58:24.0]]></Field>
@@ -11,7 +11,7 @@
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IModFolder" type="com.sunopsis.sql.DbInt"><![CDATA[3]]></Field>
 	<Field name="ITxtDescription" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 21:00:26.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-21 13:53:14.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="ModFolderName" type="java.lang.String"><![CDATA[NS_DM]]></Field>
 	<Field name="ParIModFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -22,7 +22,7 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[MDL_ODI_TRG]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[fec71cf4-877f-45c2-91e7-2edaf01f9ac6]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[75105c4d6f8034f4ea300e950a8b5af4ffdb8954]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[2b80ba745a57209436157b6aab3c1ba70acd5841]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[MDL_ODI_TRG/MOD_MDL_ODI_TRG.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">

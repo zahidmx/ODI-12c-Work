@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="C2ZlN8UCX+axUPBzfzBo0g==" exportKeySalt="4fce9164-06ef-43c7-8e6e-fb8d82402e0e" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="DhgQSVy/GW0H85KfF2pRug==" exportKeySalt="48a2260e-aec6-4194-9655-9da31e522454" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTechno">
 		<Field name="CatalogTerm" type="java.lang.String">null</Field>
 	<Field name="ColAliasWord" type="java.lang.String"><![CDATA[AS]]></Field>
@@ -73,7 +73,7 @@
 	<Field name="JoinOuterLoc" type="java.lang.String"><![CDATA[C]]></Field>
 	<Field name="JoinOuterSide" type="java.lang.String"><![CDATA[O]]></Field>
 	<Field name="JoinRightOut" type="java.lang.String"><![CDATA[RIGHT OUTER JOIN]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 20:58:05.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-22 12:48:03.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LocObjPattern" type="java.lang.String"><![CDATA[%SCHEMA.%OBJECT]]></Field>
 	<Field name="LocSeqCurrPattern" type="java.lang.String"><![CDATA[%SCHEMA.%OBJECT.currval]]></Field>
@@ -4088,15 +4088,6 @@ respect to a given sorting specification.]]></Field>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
 		<Field name="Expr1" type="java.lang.String">null</Field>
 	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[e2ed0c32-3820-4dfe-bc5f-985111dfcb19]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[122]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[983]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[08e4277f-1d03-34c4-b24c-2bbf2b654428]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[148]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
@@ -4137,15 +4128,6 @@ respect to a given sorting specification.]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[60]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
 	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[391]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[ec1bd5a8-e002-31b9-a15b-abd5b1b40286]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[36]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[602]]></Field>
 	<Field name="TargDtCond" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
@@ -4196,24 +4178,6 @@ respect to a given sorting specification.]]></Field>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
 		<Field name="Expr1" type="java.lang.String">null</Field>
 	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[28c143f3-1afb-3771-be43-d2497d3f355b]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[14]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[591]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[058fde50-2370-3655-a3c9-4d802c1913f4]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[34]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[605]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[c1e888ae-134a-34c0-9f5c-9efdcfc398c5]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[94]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
@@ -4232,37 +4196,10 @@ respect to a given sorting specification.]]></Field>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
 		<Field name="Expr1" type="java.lang.String">null</Field>
 	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[ae3e56b1-949a-3eec-b465-68c1c71fd30e]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[26]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[803]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[681d97a4-1d0f-3dc7-b87f-df7b3e373e3a]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[540]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[3de16260-c2ff-325b-997f-62011a7c91b4]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
 	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[628]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[f4b70f9d-d16d-342a-81c5-d7b1b8c30879]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[130]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[519]]></Field>
 	<Field name="TargDtCond" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
@@ -4277,28 +4214,10 @@ respect to a given sorting specification.]]></Field>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
 		<Field name="Expr1" type="java.lang.String">null</Field>
 	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[6b943c89-c282-3677-b550-8e75cc9864ea]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[856]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[5551080e-9ce6-4419-8a39-abfe7e4a3ff6]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
 	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[956]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[cdeab38f-cd61-451a-8864-f0ff7b745d31]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[8]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[898]]></Field>
 	<Field name="TargDtCond" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
@@ -4326,6 +4245,87 @@ respect to a given sorting specification.]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[134]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
 	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[978]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e2ed0c32-3820-4dfe-bc5f-985111dfcb19]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[122]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[983]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[cdeab38f-cd61-451a-8864-f0ff7b745d31]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[8]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[898]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ec1bd5a8-e002-31b9-a15b-abd5b1b40286]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[36]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[602]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[28c143f3-1afb-3771-be43-d2497d3f355b]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[14]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[591]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[058fde50-2370-3655-a3c9-4d802c1913f4]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[34]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[605]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[ae3e56b1-949a-3eec-b465-68c1c71fd30e]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[26]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[803]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[681d97a4-1d0f-3dc7-b87f-df7b3e373e3a]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[540]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[f4b70f9d-d16d-342a-81c5-d7b1b8c30879]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[130]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[519]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[6b943c89-c282-3677-b550-8e75cc9864ea]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[856]]></Field>
 	<Field name="TargDtCond" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
@@ -27058,7 +27058,7 @@ respect to a given sorting specification.]]></Field>
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[DS_ODI_TRG]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[cf46aa65-2d39-465c-9aa3-6df3112126f4]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[ce9903069ecd56c941457b3897d9f4050553b140]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[368c30796b845ff300d81f14dfc76aac1be48e8e]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Physical Architecture/DS_ODI_TRG/CONN_DS_ODI_TRG.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
@@ -29938,20 +29938,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[10.7]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.122]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[3344d747-4ffe-4e4b-81bb-d5033a1c3bea]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Salesforce.com]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[14]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.983]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[d2ac3cbf-058c-4517-9a6c-82b31be475ac]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Salesforce.com.NUMBER]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[14.6]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.148]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7ffd3917-2b27-35a3-96a7-3bde26098531]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[XML]]></Field>
@@ -30020,20 +30006,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[JMS Queue XML.NUMERIC]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[13.7]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.36]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[ef6be884-8846-31b5-b08f-1e0a636295c8]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Planning]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[17]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.602]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[11117e45-683f-315f-883d-fe2833184c2f]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Planning.Numeric]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[17.7]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.70]]></Field>
@@ -30106,34 +30078,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[16.7]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.14]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[b48faf06-fcb8-38d1-840d-b678da1a5460]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Derby]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.591]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[2a746b18-345d-3dd6-8773-1a10e2bd442e]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Derby.NUMERIC]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5.7]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.34]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[25aba1c1-aea2-377a-aefb-e3ae60c63283]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Financial Management]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[29]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.605]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7a414624-0f64-3e08-a8bf-d2ea91269d5a]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Financial Management.Numeric]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[29.7]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.94]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[f127b695-aefe-3810-8cab-20e11413acae]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Oracle BI]]></Field>
@@ -30162,34 +30106,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[8.6]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.26]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7ad03c3b-8019-3eae-af76-83fa01e7938f]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HBase]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.803]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[98ff131e-cc9c-336d-974f-dd412db0cbb2]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HBase.BIGINT]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5.6]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.10]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[e425fad6-cd82-3ae5-85e9-d33f5c52decb]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Complex File]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.540]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[0f177241-d536-3ae7-84a9-09023f15fac8]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Complex File.NUMERIC]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.7]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.4]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[a55b25d1-3d8b-349a-9997-cc54046f16f8]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Attunity]]></Field>
@@ -30202,20 +30118,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Attunity.NUMERIC]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[8.7]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.130]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[f80b410a-dc37-3995-926a-b948e73e7908]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[SAS (deprecated)]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[16]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.519]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[e213bf36-6b36-3bc2-9cf5-cad5e1e7cd9e]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[SAS (deprecated).NUM]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[16.3]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.126]]></Field>
@@ -30232,20 +30134,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[8.4]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.30]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[65943d69-9111-3a27-8cb9-38668d20008f]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hive]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.856]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[b67de3df-1e36-42cf-b184-928007c132f0]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hive.DECIMAL]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4.7]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.2]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7e02164a-c05a-41b5-a9af-6f721ecd0a28]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Amazon Redshift]]></Field>
@@ -30258,20 +30146,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Amazon Redshift.DECIMAL]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[15.7]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.8]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[0952efce-0b8c-491d-b83b-79f480aba976]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Cassandra]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[9]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.898]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[d8e0a690-50d9-430a-bc8a-e51d295f1d76]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Cassandra.decimal]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[9.7]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.98]]></Field>
@@ -30314,6 +30188,132 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Spark Python.decimal]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.122]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[3344d747-4ffe-4e4b-81bb-d5033a1c3bea]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Salesforce.com]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[14]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.983]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[d2ac3cbf-058c-4517-9a6c-82b31be475ac]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Salesforce.com.NUMBER]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[14.6]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.8]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[0952efce-0b8c-491d-b83b-79f480aba976]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Cassandra]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[9]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.898]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[d8e0a690-50d9-430a-bc8a-e51d295f1d76]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Cassandra.decimal]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[9.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.36]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[ef6be884-8846-31b5-b08f-1e0a636295c8]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Planning]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[17]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.602]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[11117e45-683f-315f-883d-fe2833184c2f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Planning.Numeric]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[17.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.14]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[b48faf06-fcb8-38d1-840d-b678da1a5460]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Derby]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.591]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[2a746b18-345d-3dd6-8773-1a10e2bd442e]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Derby.NUMERIC]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.34]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[25aba1c1-aea2-377a-aefb-e3ae60c63283]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Financial Management]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[29]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.605]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7a414624-0f64-3e08-a8bf-d2ea91269d5a]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hyperion Financial Management.Numeric]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[29.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.26]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7ad03c3b-8019-3eae-af76-83fa01e7938f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HBase]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.803]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[98ff131e-cc9c-336d-974f-dd412db0cbb2]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HBase.BIGINT]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5.6]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.10]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[e425fad6-cd82-3ae5-85e9-d33f5c52decb]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Complex File]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.540]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[0f177241-d536-3ae7-84a9-09023f15fac8]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Complex File.NUMERIC]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[12.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.130]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[f80b410a-dc37-3995-926a-b948e73e7908]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[SAS (deprecated)]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[16]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.519]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[e213bf36-6b36-3bc2-9cf5-cad5e1e7cd9e]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[SAS (deprecated).NUM]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[16.3]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.30]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[65943d69-9111-3a27-8cb9-38668d20008f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hive]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.856]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[b67de3df-1e36-42cf-b184-928007c132f0]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Hive.DECIMAL]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4.7]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.114]]></Field>

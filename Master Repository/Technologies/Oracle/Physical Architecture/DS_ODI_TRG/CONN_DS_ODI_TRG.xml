@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="35n8WKOah8l1ZWmoE3nuWw==" exportKeySalt="7eddd15d-a6d8-453e-a599-4dda116c94f1" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="WhrZW6o5Hn6/QMbmzc5D1A==" exportKeySalt="d9e46e29-71b6-4931-9580-c56ddba1ac9e" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpConnect">
 		<Field name="AuthenMethod" type="java.lang.String">null</Field>
 	<Field name="BatchUpdateSize" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
 	<Field name="Classpath" type="java.lang.String">null</Field>
 	<Field name="ConnectType" type="java.lang.String"><![CDATA[D]]></Field>
 	<Field name="ConName" type="java.lang.String"><![CDATA[DS_ODI_TRG]]></Field>
-	<Field name="DservName" type="java.lang.String">null</Field>
+	<Field name="DservName" type="java.lang.String"><![CDATA[ODI_TRG]]></Field>
 	<Field name="FetchArrayServ" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 18:56:55.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
@@ -20,7 +20,7 @@
 	<Field name="HiveMsUri" type="java.lang.String">null</Field>
 	<Field name="IdentityDomainName" type="java.lang.String">null</Field>
 	<Field name="IndJndi" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[8]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
 	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[27]]></Field>
 	<Field name="IHost" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
@@ -37,7 +37,7 @@
 	<Field name="JndiPwd" type="java.lang.String">null</Field>
 	<Field name="JndiRessource" type="java.lang.String"><![CDATA[/dataload/v1]]></Field>
 	<Field name="JndiUser" type="java.lang.String">null</Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-14 20:57:39.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-12-22 12:48:03.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="OggInstallPath" type="java.lang.String">null</Field>
 	<Field name="OnConApplyCond" type="java.lang.String">null</Field>
